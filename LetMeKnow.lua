@@ -50,7 +50,9 @@ end
 -----------------------------------------------------]--
 
 function LetMeKnow:OnInitialize()
-    local _, className, _ = UnitClass("player")
+    -- We only want to worry about the english name for the class so we will ignore
+    -- all other variables.
+    local _, className = UnitClass("player")
 
     if className ~= "ROGUE" then
         return nil
