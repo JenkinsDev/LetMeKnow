@@ -1,0 +1,9 @@
+## Interface: 50400
+## Title: LetMeKnow
+## Version: 1.0.0-beta
+## Author: Aquabeard (David Jenkins)
+## Notes: Lets you know when your rogue's posions fall off.
+## OptionalDeps: Ace3
+
+include.xml
+LetMeKnow.lua
