@@ -1,7 +1,21 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+  <!-- Libraries for LetMeKnow -->
   <Script file="libs\LibStub\LibStub.lua"/>
   <Include file="libs\AceAddon-3.0\AceAddon-3.0.xml"/>
   <Include file="libs\AceEvent-3.0\AceEvent-3.0.xml"/>
+
+  <!-- Classes for LetMeKnow -->
+  <Include file="classes\death-knight\death-knight.xml"/>
+  <Include file="classes\druid\druid.xml"/>
+  <Include file="classes\hunter\hunter.xml"/>
+  <Include file="classes\mage\mage.xml"/>
+  <Include file="classes\monk\monk.xml"/>
+  <Include file="classes\paladin\paladin.xml"/>
+  <Include file="classes\priest\priest.xml"/>
+  <Include file="classes\rogue\rogue.xml"/>
+  <Include file="classes\shaman\shaman.xml"/>
+  <Include file="classes\warlock\warlock.xml"/>
+  <Include file="classes\warrior\warrior.xml"/>
 </Ui>
